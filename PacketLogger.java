@@ -11,7 +11,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
 
-public class PacketLogger extends JFrame {
+public class PacketLogger extends JFrame {            // Detection & Prevention
     private final DefaultTableModel tableModel;
     private final DefaultListModel<String> alertModel;
     private final JTextField filterField, tsharkPathField;
